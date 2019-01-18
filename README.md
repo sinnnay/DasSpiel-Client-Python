@@ -2,11 +2,15 @@
 
 Beispiel für Einbindung und Benutzung:
 
-from dasSpiel import DasSpielV1
+from flowerMeadow import FlowerMeadow
 
 if __name__ == '__main__':
-    myGame = DasSpielV1("192.168.33.1", 53697)
-    myGame.connect("Yannis")
-    myGame.spawnPlayer()
-    myGame.movePlayer(50)
+    # myGame = FlowerMeadow("192.168.33.1", 5555)
+    myGame = FlowerMeadow.getInstance("192.168.33.1", 5555)
+    #myGame.connect("Yannis")
+    #myGame.spawnPlayer()
+    #print(myGame.getStatus())
+    #myGame.rotatePlayer(100)
+    #myGame.movePlayer(20)
+    
     # myGame.disconnect()
