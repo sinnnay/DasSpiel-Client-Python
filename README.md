@@ -12,5 +12,4 @@ if __name__ == '__main__':
     #print(myGame.getStatus())
     #myGame.rotatePlayer(100)
     #myGame.movePlayer(20)
-    
-    # myGame.disconnect()
+    #myGame.disconnect()
